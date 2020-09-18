@@ -3,6 +3,6 @@ def prime?(num)
     false
   else
     (2..num -1).to_a. each do |n|
-      num 
+      num % n == 0
   end
 end
